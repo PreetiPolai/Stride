@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        tools:text = "18_06_2001"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/GreySplash"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="x_axis"/>
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/GreySplash"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        tools:text="y_axis"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/GreySplash"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        tools:text="z_axis"/>
+
+</LinearLayout>

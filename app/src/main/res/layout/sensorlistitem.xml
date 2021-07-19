@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="SENSOR NAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/SensorName"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="sensor range"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:id="@+id/SensorRange"
+        />
+
+</LinearLayout>
